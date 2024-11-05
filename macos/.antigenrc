@@ -1,0 +1,14 @@
+antigen use oh-my-zsh
+
+# default repo bundles
+antigen bundle git
+antigen bundle nvm
+antigen bundle brew
+antigen bundle npm
+antigen bundle jump
+
+# select theme
+antigen theme bureau
+
+# apply the config
+antigen apply
