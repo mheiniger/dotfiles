@@ -1,0 +1,12 @@
+[alias]
+    # pulls changes of the current branch from remote
+    pull-current = !git fetch --all && git pull origin $(git symbolic-ref --short HEAD)
+    pullc = !git pull-current
+
+    # push changes of the current branch to remote
+    push-current = !git push origin $(git symbolic-ref --short HEAD)
+    pushc = !git push-current
+
+    # force push changes of the current branch to remove
+    push-force = !git push-current --force
+    pushf = !git push-force
