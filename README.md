@@ -24,3 +24,10 @@ Run this command from this directory. They will be used additionally to those in
 mkdir -p ~/.config/git
 ln -s $PWD/macos/.config/git/config ~/.config/git/config
 ```
+
+## Karabiner
+As I use Mac/Linux/Windows exchangeably, this maps the programming related keys like `{}[]` 
+```
+mkdir -p ~/.config/git
+ln -s $PWD/macos/.config/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
+```
